@@ -10,7 +10,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-// Register database
+// Register database.
 require('./db');
 
 // view engine setup
