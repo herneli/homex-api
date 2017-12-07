@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -aP --exclude-from '.rsyncignore' --delete . bitnami@herneli.com:/home/bitnami/projects/homex-api
